@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952ECD6E4A3D90528E05B54D /* Pods_LinkDevTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5D288CB732A6B403A8C7FB /* Pods_LinkDevTask.framework */; };
 		A373DBE8220919C20035934E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373DBE7220919C20035934E /* AppDelegate.swift */; };
-		A373DBEA220919C20035934E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373DBE9220919C20035934E /* ViewController.swift */; };
 		A373DBED220919C20035934E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A373DBEB220919C20035934E /* Main.storyboard */; };
 		A373DBEF220919C40035934E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A373DBEE220919C40035934E /* Assets.xcassets */; };
 		A373DBF2220919C40035934E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A373DBF0220919C40035934E /* LaunchScreen.storyboard */; };
@@ -17,11 +17,13 @@
 /* Begin PBXFileReference section */
 		A373DBE4220919C20035934E /* LinkDevTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkDevTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A373DBE7220919C20035934E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A373DBE9220919C20035934E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A373DBEC220919C20035934E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A373DBEE220919C40035934E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A373DBF1220919C40035934E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A373DBF3220919C40035934E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFEC86B6A0771A6EA332ED9 /* Pods-LinkDevTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkDevTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5D288CB732A6B403A8C7FB /* Pods_LinkDevTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkDevTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CE2CEC4D2668422AE1A3C8 /* Pods-LinkDevTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkDevTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +31,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952ECD6E4A3D90528E05B54D /* Pods_LinkDevTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031ABE25A8A4CF39F2308D17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D288CB732A6B403A8C7FB /* Pods_LinkDevTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		696515C220C5E018C51133B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEFEC86B6A0771A6EA332ED9 /* Pods-LinkDevTask.debug.xcconfig */,
+				F3CE2CEC4D2668422AE1A3C8 /* Pods-LinkDevTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A373DBDB220919C20035934E = {
 			isa = PBXGroup;
 			children = (
 				A373DBE6220919C20035934E /* LinkDevTask */,
 				A373DBE5220919C20035934E /* Products */,
+				696515C220C5E018C51133B0 /* Pods */,
+				031ABE25A8A4CF39F2308D17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				A373DBE7220919C20035934E /* AppDelegate.swift */,
-				A373DBE9220919C20035934E /* ViewController.swift */,
 				A373DBEB220919C20035934E /* Main.storyboard */,
 				A373DBEE220919C40035934E /* Assets.xcassets */,
 				A373DBF0220919C40035934E /* LaunchScreen.storyboard */,
@@ -71,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A373DBF6220919C40035934E /* Build configuration list for PBXNativeTarget "LinkDevTask" */;
 			buildPhases = (
+				1D75C24B4E50FE1387ED99FF /* [CP] Check Pods Manifest.lock */,
 				A373DBE0220919C20035934E /* Sources */,
 				A373DBE1220919C20035934E /* Frameworks */,
 				A373DBE2220919C20035934E /* Resources */,
+				02F1BD9B261DD11CF62CF51F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +153,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02F1BD9B261DD11CF62CF51F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D75C24B4E50FE1387ED99FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkDevTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A373DBE0220919C20035934E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A373DBEA220919C20035934E /* ViewController.swift in Sources */,
 				A373DBE8220919C20035934E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,10 +351,11 @@
 		};
 		A373DBF7220919C40035934E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFEC86B6A0771A6EA332ED9 /* Pods-LinkDevTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J2K8QX5BJD;
+				DEVELOPMENT_TEAM = T6RWCFUP2W;
 				INFOPLIST_FILE = LinkDevTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +370,11 @@
 		};
 		A373DBF8220919C40035934E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CE2CEC4D2668422AE1A3C8 /* Pods-LinkDevTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J2K8QX5BJD;
+				DEVELOPMENT_TEAM = T6RWCFUP2W;
 				INFOPLIST_FILE = LinkDevTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
