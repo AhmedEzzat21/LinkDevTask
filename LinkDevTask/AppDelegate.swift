@@ -19,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.02527159266, green: 0.2010561228, blue: 0.1603859365, alpha: 1)
         UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+        UINavigationBar.appearance().backIndicatorImage = UIImage(named: "back")
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "back")
+       
+
         //=============================================
         // Override point for customization after application launch.
         return true

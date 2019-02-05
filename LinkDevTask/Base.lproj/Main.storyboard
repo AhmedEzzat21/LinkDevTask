@@ -40,7 +40,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E07-Oe-ZFh"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="adu-dY-UPx"/>
+                    <navigationItem key="navigationItem" title="Home" id="adu-dY-UPx">
+                        <barButtonItem key="backBarButtonItem" title="      " id="G2z-f9-E7r"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="homeTable" destination="e8F-ah-lmQ" id="UEO-WS-Syw"/>
                     </connections>
