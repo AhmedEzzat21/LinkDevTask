@@ -9,16 +9,20 @@
 import UIKit
 
 class HomeCell: UITableViewCell {
-
+    
+    @IBOutlet weak var homeImageView: UIImageView!
+    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet weak var descriptionLbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func configure(homeModel: HomeModel) {
+        titleLbl.text = homeModel.titleEN
+        descriptionLbl.text = homeModel.descriptionEN
     }
     
 }
+
