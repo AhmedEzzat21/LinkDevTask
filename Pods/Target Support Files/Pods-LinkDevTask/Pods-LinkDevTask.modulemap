@@ -1,0 +1,6 @@
+framework module Pods_LinkDevTask {
+  umbrella header "Pods-LinkDevTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
