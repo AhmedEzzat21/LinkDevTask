@@ -18,6 +18,10 @@
 		A3D1B383220936670043B348 /* UIView+Coners-Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1B37F220936670043B348 /* UIView+Coners-Borders.swift */; };
 		A3D1B384220936670043B348 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1B380220936670043B348 /* ShadowView.swift */; };
 		A3D1B385220936670043B348 /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1B381220936670043B348 /* NavigationHelper.swift */; };
+		A3D1B388220936A80043B348 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1B386220936A80043B348 /* HomeCell.swift */; };
+		A3D1B38B220937270043B348 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D1B38A220937270043B348 /* HomeCell.xib */; };
+		A3D1B38D220937A70043B348 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1B38C220937A70043B348 /* HomeModel.swift */; };
+		A3D1B38F220937C80043B348 /* GeneralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1B38E220937C80043B348 /* GeneralModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		A3D1B37F220936670043B348 /* UIView+Coners-Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Coners-Borders.swift"; sourceTree = "<group>"; };
 		A3D1B380220936670043B348 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		A3D1B381220936670043B348 /* NavigationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
+		A3D1B386220936A80043B348 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		A3D1B38A220937270043B348 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		A3D1B38C220937A70043B348 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		A3D1B38E220937C80043B348 /* GeneralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralModel.swift; sourceTree = "<group>"; };
 		AEFEC86B6A0771A6EA332ED9 /* Pods-LinkDevTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkDevTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5D288CB732A6B403A8C7FB /* Pods_LinkDevTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkDevTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CE2CEC4D2668422AE1A3C8 /* Pods-LinkDevTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkDevTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +129,8 @@
 		A3D1B37622091D1E0043B348 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A3D1B38C220937A70043B348 /* HomeModel.swift */,
+				A3D1B38E220937C80043B348 /* GeneralModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,6 +157,8 @@
 		A3D1B37922091D7E0043B348 /* HomeCell */ = {
 			isa = PBXGroup;
 			children = (
+				A3D1B386220936A80043B348 /* HomeCell.swift */,
+				A3D1B38A220937270043B348 /* HomeCell.xib */,
 			);
 			path = HomeCell;
 			sourceTree = "<group>";
@@ -213,6 +225,7 @@
 			files = (
 				A373DBF2220919C40035934E /* LaunchScreen.storyboard in Resources */,
 				A373DBEF220919C40035934E /* Assets.xcassets in Resources */,
+				A3D1B38B220937270043B348 /* HomeCell.xib in Resources */,
 				A373DBED220919C20035934E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D1B38F220937C80043B348 /* GeneralModel.swift in Sources */,
 				A3D1B384220936670043B348 /* ShadowView.swift in Sources */,
 				A373DBE8220919C20035934E /* AppDelegate.swift in Sources */,
+				A3D1B38D220937A70043B348 /* HomeModel.swift in Sources */,
+				A3D1B388220936A80043B348 /* HomeCell.swift in Sources */,
 				A3D1B385220936670043B348 /* NavigationHelper.swift in Sources */,
 				A3D1B382220936670043B348 /* SLImageView.swift in Sources */,
 				A3D1B37D22091E240043B348 /* DescriptionVC.swift in Sources */,

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="HomeCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="Lek-wZ-WAD" customClass="HomeCell" customModule="LinkDevTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="560" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lek-wZ-WAD" id="9ZG-no-fZE">
+                <rect key="frame" x="0.0" y="0.0" width="560" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1I-Ur-5cI">
+                        <rect key="frame" x="22" y="13" width="516" height="174"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="7bJ-Zl-QnZ">
+                                <rect key="frame" x="0.0" y="0.0" width="516" height="116"/>
+                                <color key="backgroundColor" red="0.0" green="0.19215686269999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fr5-9a-pnz">
+                                <rect key="frame" x="0.0" y="116" width="516" height="58"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facility Licence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qm-w4-XuE">
+                                        <rect key="frame" x="20" y="15" width="119.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="textColor" red="0.0039215686274509803" green="0.50980392156862742" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Service Enable The Individual .." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4h4-TH-pxG">
+                                        <rect key="frame" x="20" y="39.5" width="218" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="2qm-w4-XuE" firstAttribute="leading" secondItem="fr5-9a-pnz" secondAttribute="leading" constant="20" id="FCb-ed-ehy"/>
+                                    <constraint firstItem="2qm-w4-XuE" firstAttribute="top" secondItem="fr5-9a-pnz" secondAttribute="top" constant="15" id="Q6J-PR-QwY"/>
+                                    <constraint firstItem="4h4-TH-pxG" firstAttribute="leading" secondItem="2qm-w4-XuE" secondAttribute="leading" id="lLV-Fg-fSF"/>
+                                    <constraint firstItem="4h4-TH-pxG" firstAttribute="top" secondItem="2qm-w4-XuE" secondAttribute="bottom" constant="5" id="xFU-81-Xox"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fr5-9a-pnz" firstAttribute="leading" secondItem="Q1I-Ur-5cI" secondAttribute="leading" id="9IW-iM-xTo"/>
+                            <constraint firstAttribute="bottom" secondItem="fr5-9a-pnz" secondAttribute="bottom" id="Osc-IM-PVQ"/>
+                            <constraint firstAttribute="trailing" secondItem="fr5-9a-pnz" secondAttribute="trailing" id="PHz-0n-8fA"/>
+                            <constraint firstItem="fr5-9a-pnz" firstAttribute="top" secondItem="7bJ-Zl-QnZ" secondAttribute="bottom" id="Ugs-sU-NqS"/>
+                            <constraint firstItem="7bJ-Zl-QnZ" firstAttribute="height" secondItem="Q1I-Ur-5cI" secondAttribute="height" multiplier="2:3" id="b4C-x2-SYB"/>
+                            <constraint firstItem="7bJ-Zl-QnZ" firstAttribute="leading" secondItem="Q1I-Ur-5cI" secondAttribute="leading" id="ddZ-BG-WY4"/>
+                            <constraint firstAttribute="trailing" secondItem="7bJ-Zl-QnZ" secondAttribute="trailing" id="k9W-AQ-81J"/>
+                            <constraint firstItem="7bJ-Zl-QnZ" firstAttribute="top" secondItem="Q1I-Ur-5cI" secondAttribute="top" id="qmT-zW-pFa"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Q1I-Ur-5cI" firstAttribute="top" secondItem="9ZG-no-fZE" secondAttribute="topMargin" constant="2" id="3Gv-gX-z0I"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Q1I-Ur-5cI" secondAttribute="trailing" constant="2" id="Nj6-hG-QHK"/>
+                    <constraint firstItem="Q1I-Ur-5cI" firstAttribute="leading" secondItem="9ZG-no-fZE" secondAttribute="leadingMargin" constant="2" id="pxB-y6-1aF"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Q1I-Ur-5cI" secondAttribute="bottom" constant="2" id="zuD-wq-BjD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="descriptionLbl" destination="4h4-TH-pxG" id="4fD-aL-2oR"/>
+                <outlet property="homeImageView" destination="7bJ-Zl-QnZ" id="466-gA-S0V"/>
+                <outlet property="titleLbl" destination="2qm-w4-XuE" id="Xzb-Sr-A2t"/>
+            </connections>
+            <point key="canvasLocation" x="83.200000000000003" y="-22.488755622188908"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="background" width="500" height="313"/>
+    </resources>
+</document>
