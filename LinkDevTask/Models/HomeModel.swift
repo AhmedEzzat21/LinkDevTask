@@ -7,6 +7,9 @@
 //
 
 import Foundation
+
+import Foundation
+
 struct HomeModel: Codable {
     let id: Int?
     let title, titleEN, titleAR, titleTrimmed: String?
@@ -21,7 +24,7 @@ struct HomeModel: Codable {
     let prerequisitesEN, prerequisitesAR, requiredDocuments, requiredDocumentsEN: String?
     let requiredDocumentsAR, fees, feesEN, feesAR: String?
     let timeFrame, timeFrameEN, timeFrameAR: String?
-    let serviceChannels, serviceChannelsEN, serviceChannelsAR: String?
+    let serviceChannels, serviceChannelsEN, serviceChannelsAR: ServiceChannels?
     let policiesAndProcedures, policiesAndProceduresEN, policiesAndProceduresAR, eServiceRequestURL: String?
     let eServiceRequestURLEN, eServiceRequestURLAR: String?
     let eServiceRequestFullURL: String?
@@ -84,12 +87,12 @@ struct HomeModel: Codable {
 
 struct ParentDepartment: Codable {
     let id: Int?
-    let title, titleEN: String?
-    let titleAR: String?
+    let title, titleEN: Title?
+    let titleAR: TitleAR?
     let imageSrc: String?
     let brief, briefEN: String?
-    let briefAR: String?
-    let briefTrimmed, briefTrimmedEN: String?
+    let briefAR: BriefAR?
+    let briefTrimmed, briefTrimmedEN: BriefTrimmed?
     
     enum CodingKeys: String, CodingKey {
         case id = "ID"
@@ -103,5 +106,28 @@ struct ParentDepartment: Codable {
         case briefTrimmed = "BriefTrimmed"
         case briefTrimmedEN = "BriefTrimmedEN"
     }
+}
+
+enum BriefAR: String, Codable {
+    case نبذةخدمةترخيصمنشأة = "نبذة خدمة ترخيص منشأة"
+}
+
+enum BriefTrimmed: String, Codable {
+    case dhcrOffersCommercialLicesnsesServicesForAllEntitiesT = "DHCR offers commercial licesnses services for all entities t ..."
+}
+
+enum Title: String, Codable {
+    case commercialLicenseServices = "Commercial License Services"
+}
+
+enum TitleAR: String, Codable {
+    case خدمةترخيصمنشأة = "خدمة ترخيص منشأة"
+}
+
+enum ServiceChannels: String, Codable {
+    case empty = ""
+    case online = "Online"
+    case purpleOnline = "Online "
+    case serviceChannelsOnline = "\u{200b}Online"
 }
 

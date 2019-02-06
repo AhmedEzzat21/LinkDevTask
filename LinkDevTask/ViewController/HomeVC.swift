@@ -12,6 +12,7 @@ class HomeVC: UIViewController {
     
     var homeModels: [HomeModel] = []
     let nib = UINib(nibName: "HomeCell", bundle: nil)
+    var homeViewModel : HomeVM = HomeVM()
     
     @IBOutlet weak var homeTable: UITableView!
     override func viewDidLoad() {
@@ -20,6 +21,12 @@ class HomeVC: UIViewController {
         homeTable.delegate = self
         homeTable.dataSource = self
         homeTable.register(nib, forCellReuseIdentifier: "HomeCell")
+        homeViewModel.getAllHomeCategories()
+        homeViewModel.operationSucc = { _ in
+            self.homeModels = self.homeViewModel.homeModels
+            self.homeTable.reloadData()
+        }
+        
     }
     
 }
@@ -28,12 +35,12 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //        return homeModels.count
-        return 20
+        return homeModels.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCell") as! HomeCell
-        //        cell.configure(homeModel: homeModels[indexPath.row])
+        cell.configure(homeModel: homeModels[indexPath.row])
         cell.selectionStyle = .none
         return cell
     }
@@ -43,10 +50,13 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //getting the index path of selected row
+        let vc = StoryBoardManager<DescriptionVC>.Main.Navigate()
+        vc.homeModel = homeModels[indexPath.row]
+        vc.navigationItem.title = "Use Clinc Escalator License"
+        self.navigationController?.pushViewController(vc, animated: true)
         
-        self.navigationController?.pushViewController(StoryBoardManager<DescriptionVC>.Main.Navigate(), animated: true)
         
     }
 }
+
 

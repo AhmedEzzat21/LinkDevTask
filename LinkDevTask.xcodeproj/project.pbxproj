@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0312BCDC220A5FD10057EC44 /* serviceDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312BCDB220A5FD10057EC44 /* serviceDetailsCollectionViewCell.swift */; };
+		1ED6DAC4220A055F006A4323 /* AppRefrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DABF220A055E006A4323 /* AppRefrence.swift */; };
+		1ED6DAC5220A055F006A4323 /* BaseRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DAC0220A055E006A4323 /* BaseRequestBuilder.swift */; };
+		1ED6DAC6220A055F006A4323 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DAC1220A055E006A4323 /* NetworkResponse.swift */; };
+		1ED6DAC7220A055F006A4323 /* BaseRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DAC2220A055E006A4323 /* BaseRequestHandler.swift */; };
+		1ED6DAC8220A055F006A4323 /* BaseResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DAC3220A055E006A4323 /* BaseResponseHandler.swift */; };
+		1ED6DACD220A066A006A4323 /* GeneralRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DACB220A066A006A4323 /* GeneralRepo.swift */; };
+		1ED6DAD1220A0671006A4323 /* GeneralEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DACF220A0671006A4323 /* GeneralEndPoints.swift */; };
+		1ED6DAD4220A070F006A4323 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DAD3220A070F006A4323 /* Loader.swift */; };
+		1ED6DADE220A0883006A4323 /* JannaLT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6DAD7220A0883006A4323 /* JannaLT-Bold.ttf */; };
+		1ED6DADF220A0883006A4323 /* JannaLT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6DAD8220A0883006A4323 /* JannaLT-Regular.ttf */; };
+		1ED6DAE0220A0883006A4323 /* tajawal_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6DAD9220A0883006A4323 /* tajawal_medium.ttf */; };
+		1ED6DAE1220A0883006A4323 /* a.jannat.lt.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6DADA220A0883006A4323 /* a.jannat.lt.bold.ttf */; };
+		1ED6DAE2220A0883006A4323 /* tajawal_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6DADB220A0883006A4323 /* tajawal_regular.ttf */; };
+		1ED6DAE3220A0883006A4323 /* a.jannat.lt.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6DADC220A0883006A4323 /* a.jannat.lt.regular.ttf */; };
+		1ED6DAE4220A0883006A4323 /* jannat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6DADD220A0883006A4323 /* jannat.ttf */; };
+		1ED6DAE6220A0BB4006A4323 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6DAE5220A0BB4006A4323 /* HomeVM.swift */; };
 		952ECD6E4A3D90528E05B54D /* Pods_LinkDevTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5D288CB732A6B403A8C7FB /* Pods_LinkDevTask.framework */; };
 		A373DBE8220919C20035934E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373DBE7220919C20035934E /* AppDelegate.swift */; };
 		A373DBED220919C20035934E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A373DBEB220919C20035934E /* Main.storyboard */; };
@@ -25,6 +42,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0312BCDB220A5FD10057EC44 /* serviceDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1ED6DABF220A055E006A4323 /* AppRefrence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRefrence.swift; sourceTree = "<group>"; };
+		1ED6DAC0220A055E006A4323 /* BaseRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestBuilder.swift; sourceTree = "<group>"; };
+		1ED6DAC1220A055E006A4323 /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		1ED6DAC2220A055E006A4323 /* BaseRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestHandler.swift; sourceTree = "<group>"; };
+		1ED6DAC3220A055E006A4323 /* BaseResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponseHandler.swift; sourceTree = "<group>"; };
+		1ED6DACB220A066A006A4323 /* GeneralRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralRepo.swift; sourceTree = "<group>"; };
+		1ED6DACF220A0671006A4323 /* GeneralEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralEndPoints.swift; sourceTree = "<group>"; };
+		1ED6DAD3220A070F006A4323 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		1ED6DAD7220A0883006A4323 /* JannaLT-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JannaLT-Bold.ttf"; sourceTree = "<group>"; };
+		1ED6DAD8220A0883006A4323 /* JannaLT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JannaLT-Regular.ttf"; sourceTree = "<group>"; };
+		1ED6DAD9220A0883006A4323 /* tajawal_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tajawal_medium.ttf; sourceTree = "<group>"; };
+		1ED6DADA220A0883006A4323 /* a.jannat.lt.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.jannat.lt.bold.ttf; sourceTree = "<group>"; };
+		1ED6DADB220A0883006A4323 /* tajawal_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tajawal_regular.ttf; sourceTree = "<group>"; };
+		1ED6DADC220A0883006A4323 /* a.jannat.lt.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.jannat.lt.regular.ttf; sourceTree = "<group>"; };
+		1ED6DADD220A0883006A4323 /* jannat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jannat.ttf; sourceTree = "<group>"; };
+		1ED6DAE5220A0BB4006A4323 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		A373DBE4220919C20035934E /* LinkDevTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkDevTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A373DBE7220919C20035934E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A373DBEC220919C20035934E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +100,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1ED6DABE220A055E006A4323 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6DABF220A055E006A4323 /* AppRefrence.swift */,
+				1ED6DAC0220A055E006A4323 /* BaseRequestBuilder.swift */,
+				1ED6DAC1220A055E006A4323 /* NetworkResponse.swift */,
+				1ED6DAC2220A055E006A4323 /* BaseRequestHandler.swift */,
+				1ED6DAC3220A055E006A4323 /* BaseResponseHandler.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		1ED6DAC9220A066A006A4323 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6DACB220A066A006A4323 /* GeneralRepo.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1ED6DACE220A0671006A4323 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6DACF220A0671006A4323 /* GeneralEndPoints.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		1ED6DAD5220A0883006A4323 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6DAD6220A0883006A4323 /* Fonts */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		1ED6DAD6220A0883006A4323 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6DAD7220A0883006A4323 /* JannaLT-Bold.ttf */,
+				1ED6DAD8220A0883006A4323 /* JannaLT-Regular.ttf */,
+				1ED6DAD9220A0883006A4323 /* tajawal_medium.ttf */,
+				1ED6DADA220A0883006A4323 /* a.jannat.lt.bold.ttf */,
+				1ED6DADB220A0883006A4323 /* tajawal_regular.ttf */,
+				1ED6DADC220A0883006A4323 /* a.jannat.lt.regular.ttf */,
+				1ED6DADD220A0883006A4323 /* jannat.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		696515C220C5E018C51133B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +180,10 @@
 		A373DBE6220919C20035934E /* LinkDevTask */ = {
 			isa = PBXGroup;
 			children = (
+				1ED6DAD5220A0883006A4323 /* Resourses */,
+				1ED6DACE220A0671006A4323 /* EndPoints */,
+				1ED6DAC9220A066A006A4323 /* Repository */,
+				1ED6DABE220A055E006A4323 /* NetworkLayer */,
 				A3D1B37422091C6B0043B348 /* ViewModel */,
 				A3D1B37522091D040043B348 /* ViewController */,
 				A3D1B37622091D1E0043B348 /* Models */,
@@ -113,6 +201,7 @@
 		A3D1B37422091C6B0043B348 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1ED6DAE5220A0BB4006A4323 /* HomeVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -122,6 +211,7 @@
 			children = (
 				A3D1B37A22091E070043B348 /* HomeVC.swift */,
 				A3D1B37C22091E240043B348 /* DescriptionVC.swift */,
+				0312BCDB220A5FD10057EC44 /* serviceDetailsCollectionViewCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -138,6 +228,7 @@
 		A3D1B37722091D2F0043B348 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1ED6DAD3220A070F006A4323 /* Loader.swift */,
 				A3D1B381220936670043B348 /* NavigationHelper.swift */,
 				A3D1B380220936670043B348 /* ShadowView.swift */,
 				A3D1B37E220936670043B348 /* SLImageView.swift */,
@@ -223,10 +314,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED6DAE1220A0883006A4323 /* a.jannat.lt.bold.ttf in Resources */,
+				1ED6DADF220A0883006A4323 /* JannaLT-Regular.ttf in Resources */,
 				A373DBF2220919C40035934E /* LaunchScreen.storyboard in Resources */,
 				A373DBEF220919C40035934E /* Assets.xcassets in Resources */,
 				A3D1B38B220937270043B348 /* HomeCell.xib in Resources */,
+				1ED6DADE220A0883006A4323 /* JannaLT-Bold.ttf in Resources */,
+				1ED6DAE4220A0883006A4323 /* jannat.ttf in Resources */,
+				1ED6DAE2220A0883006A4323 /* tajawal_regular.ttf in Resources */,
 				A373DBED220919C20035934E /* Main.storyboard in Resources */,
+				1ED6DAE3220A0883006A4323 /* a.jannat.lt.regular.ttf in Resources */,
+				1ED6DAE0220A0883006A4323 /* tajawal_medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,9 +339,10 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -251,10 +350,11 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinkDevTask/Pods-LinkDevTask-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1D75C24B4E50FE1387ED99FF /* [CP] Check Pods Manifest.lock */ = {
@@ -287,15 +387,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D1B38F220937C80043B348 /* GeneralModel.swift in Sources */,
+				1ED6DAC7220A055F006A4323 /* BaseRequestHandler.swift in Sources */,
 				A3D1B384220936670043B348 /* ShadowView.swift in Sources */,
+				1ED6DAC5220A055F006A4323 /* BaseRequestBuilder.swift in Sources */,
 				A373DBE8220919C20035934E /* AppDelegate.swift in Sources */,
 				A3D1B38D220937A70043B348 /* HomeModel.swift in Sources */,
+				1ED6DAD1220A0671006A4323 /* GeneralEndPoints.swift in Sources */,
 				A3D1B388220936A80043B348 /* HomeCell.swift in Sources */,
+				1ED6DAD4220A070F006A4323 /* Loader.swift in Sources */,
+				1ED6DAC4220A055F006A4323 /* AppRefrence.swift in Sources */,
 				A3D1B385220936670043B348 /* NavigationHelper.swift in Sources */,
+				0312BCDC220A5FD10057EC44 /* serviceDetailsCollectionViewCell.swift in Sources */,
 				A3D1B382220936670043B348 /* SLImageView.swift in Sources */,
 				A3D1B37D22091E240043B348 /* DescriptionVC.swift in Sources */,
 				A3D1B383220936670043B348 /* UIView+Coners-Borders.swift in Sources */,
+				1ED6DACD220A066A006A4323 /* GeneralRepo.swift in Sources */,
 				A3D1B37B22091E070043B348 /* HomeVC.swift in Sources */,
+				1ED6DAC8220A055F006A4323 /* BaseResponseHandler.swift in Sources */,
+				1ED6DAE6220A0BB4006A4323 /* HomeVM.swift in Sources */,
+				1ED6DAC6220A055F006A4323 /* NetworkResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

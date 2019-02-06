@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 struct GeneralModel<T: Codable>: Codable {
     let data: [T]?
     let isSucceed: Bool?
@@ -20,3 +21,12 @@ struct GeneralModel<T: Codable>: Codable {
         case messagesCode = "MessagesCode"
     }
 }
+
+struct ServiceDetails {
+    let title:String?
+    let description:String?
+    let image:UIImage?
+}
+
+
+

@@ -21,7 +21,7 @@ class HomeCell: UITableViewCell {
     
     func configure(homeModel: HomeModel) {
         titleLbl.text = homeModel.titleEN
-        descriptionLbl.text = homeModel.descriptionEN
+        descriptionLbl.text = homeModel.brief
     }
     
 }

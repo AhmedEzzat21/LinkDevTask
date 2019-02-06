@@ -34,14 +34,14 @@
                                 <rect key="frame" x="0.0" y="116" width="516" height="58"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facility Licence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qm-w4-XuE">
-                                        <rect key="frame" x="20" y="15" width="119.5" height="19.5"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <rect key="frame" x="20" y="15" width="113" height="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <color key="textColor" red="0.0039215686274509803" green="0.50980392156862742" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Service Enable The Individual .." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4h4-TH-pxG">
-                                        <rect key="frame" x="20" y="39.5" width="218" height="16"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Service Enable The Individual .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4h4-TH-pxG">
+                                        <rect key="frame" x="20" y="38" width="486" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -52,6 +52,7 @@
                                     <constraint firstItem="2qm-w4-XuE" firstAttribute="top" secondItem="fr5-9a-pnz" secondAttribute="top" constant="15" id="Q6J-PR-QwY"/>
                                     <constraint firstItem="4h4-TH-pxG" firstAttribute="leading" secondItem="2qm-w4-XuE" secondAttribute="leading" id="lLV-Fg-fSF"/>
                                     <constraint firstItem="4h4-TH-pxG" firstAttribute="top" secondItem="2qm-w4-XuE" secondAttribute="bottom" constant="5" id="xFU-81-Xox"/>
+                                    <constraint firstAttribute="trailing" secondItem="4h4-TH-pxG" secondAttribute="trailing" constant="10" id="yoF-1I-JSS"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
